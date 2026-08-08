@@ -54,6 +54,6 @@ The repository will be organized according to the different deliverables develop
 
 ## Status
 
-🟡 **In development**
+**In development**
 
 The repository will be updated progressively as the project and its individual deliverables are developed.
