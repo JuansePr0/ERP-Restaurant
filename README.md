@@ -1,59 +1,54 @@
-# Restaurant ERP – Software Architecture
+# ERP Integral para Restaurante – Arquitectura de Software
 
-## Project Overview
+## Descripción del proyecto
 
-This repository contains my individual contributions to the Software Architecture project developed for the Software Engineering program at Universidad Manuela Beltrán.
+Este repositorio contiene las contribuciones individuales realizadas para el proyecto de Arquitectura de Software.
 
-The project proposes the development of an Enterprise Resource Planning (ERP) system for a small or medium-sized restaurant. The system aims to integrate and centralize the main operational and administrative processes of the restaurant.
+El proyecto propone el desarrollo de un ERP integral para un restaurante pequeño o mediano, orientado a centralizar sus principales procesos operativos, administrativos y comerciales.
 
-## Project Context
+La propuesta integra módulos de inventario, compras, ventas, recursos humanos, Food Costing y CRM.
 
-The proposed ERP is focused on a restaurant that provides table service and manages customer orders.
+## Contexto
 
-The system is intended to integrate processes such as:
+El restaurante debe gestionar diferentes procesos relacionados entre sí, como inventario, compras, proveedores, ventas, empleados y clientes.
 
-- Order management
-- Sales and billing
-- Inventory management
-- Purchasing
-- Supplier management
-- Employee management
-- Reports and analytics
+El sistema busca integrar estos procesos en una única plataforma y utilizar la información generada para mejorar el control de costos, la rentabilidad de los platos y la relación con los clientes.
 
-## My Contributions
+## Módulos principales
 
-This repository will contain the individual work developed as part of the project, including:
+- Inventario / Almacén
+- Compras / Proveedores
+- Facturación / Ventas (POS)
+- Recursos Humanos
+- Food Costing
+- CRM / Clientes
 
-- Problem definition and context
-- ERP advantages and disadvantages
-- ERP comparison and justification
-- Proposed solution
-- Project documentation
-- Infographic
-- Video presentation
-- Supporting evidence
+### Food Costing
 
-## Repository Structure
+Permitirá gestionar fichas técnicas de recetas, calcular el costo de cada plato, actualizar los costos según las variaciones de los insumos y generar alertas cuando disminuya el margen de ganancia.
 
-The repository will be organized according to the different deliverables developed throughout the project.
+### CRM / Clientes
 
-| Section | Description |
-|---|---|
-| Project Definition | Context and general definition of the project |
-| Problem and Solution | Problem definition and proposed solution |
-| ERP Comparison | Analysis of existing solutions |
-| Infographic | Visual summary of the project |
-| Video | Individual video presentation |
-| Evidence | Supporting material and documentation |
+Permitirá gestionar clientes, reservas, historial de pedidos, fidelización y encuestas de satisfacción.
 
-## Academic Context
+## Integración de los módulos
 
-**Course:** Software Architecture  
-**Program:** Software Engineering  
-**Institution:** Universidad Manuela Beltrán
+La propuesta busca relacionar la información de los diferentes módulos. Por ejemplo, una venta puede actualizar el inventario y el costo de una receta, mientras que la información de clientes puede utilizarse para identificar oportunidades de fidelización.
 
-## Status
+## Contribuciones individuales
 
-**In development**
+Este repositorio contiene mi trabajo individual relacionado con:
 
-The repository will be updated progressively as the project and its individual deliverables are developed.
+- Definición del problema y contexto.
+- Evaluación del ERP.
+- Ventajas y desventajas.
+- Comparación con soluciones existentes.
+- Justificación.
+- Solución propuesta.
+- Infografía.
+- Video de presentación.
+- Evidencias del proyecto.
+
+## Estado
+
+🟡 En desarrollo
