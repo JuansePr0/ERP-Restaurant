@@ -1,86 +1,58 @@
-# ERP Comparison
+# Comparación de Soluciones ERP para Restaurantes
 
-## Existing Restaurant Management Solutions
+## Soluciones analizadas
 
-Before defining the proposed ERP, three existing solutions for restaurant management were analyzed: Toast, Lightspeed Restaurant, and Oracle MICROS Simphony.
+Para establecer una referencia para el proyecto se analizaron diferentes soluciones comerciales orientadas a la gestión de restaurantes:
 
-The objective is to identify the main functionalities already available in commercial solutions and use them as a reference for defining the scope of the proposed academic project.
+- Toast.
+- Lightspeed Restaurant.
+- Oracle MICROS Simphony.
 
-## 1. Toast
+Estas soluciones permiten identificar funcionalidades comunes en plataformas profesionales de gestión para restaurantes.
 
-Toast is a restaurant technology platform that integrates point-of-sale operations with other restaurant management tools.
+## Características de comparación
 
-Its available functionality includes:
+La comparación considera los siguientes aspectos:
 
-- Point of sale and payments.
-- Inventory management.
-- Supplier management.
-- Purchasing and ordering.
-- Team management.
-- Payroll and scheduling.
-- Reporting and analytics.
-
-Toast's inventory tools can connect sales data with inventory, suppliers, purchasing, and ordering processes.
-
-## 2. Lightspeed Restaurant
-
-Lightspeed Restaurant is a restaurant management and point-of-sale platform.
-
-Its functionality includes:
-
-- Order and point-of-sale management.
-- Inventory management.
-- Tableside and floor-plan management.
-- Kitchen display.
-- Employee management.
-- Customer management.
-- Reporting and analytics.
-- Multiple-location management.
-
-The platform can also track inventory at the ingredient level and provide reports related to sales, products, employees, and inventory.
-
-## 3. Oracle MICROS Simphony
-
-Oracle MICROS Simphony is a cloud-based restaurant point-of-sale platform with extensive integration capabilities.
-
-Its functionality includes:
-
-- Point of sale.
-- Transaction and payment processing.
-- Kitchen operations.
-- Employee management.
-- Inventory management.
-- Reporting and analytics.
-- Menu management.
-- Integration with other business systems.
-
-Oracle also provides inventory tools that can connect sales with stock levels, suggested ordering, suppliers, and inventory tracking.
-
-## Comparison
-
-| Feature | Toast | Lightspeed Restaurant | Oracle MICROS Simphony | Proposed ERP |
+| Funcionalidad | Toast | Lightspeed Restaurant | Oracle MICROS Simphony | Nuestra propuesta |
 |---|---|---|---|---|
-| Orders / POS | ✓ | ✓ | ✓ | ✓ |
-| Sales and payments | ✓ | ✓ | ✓ | ✓ |
-| Inventory | ✓ | ✓ | ✓ | ✓ |
-| Purchasing | ✓ | ✓ | ✓ | ✓ |
-| Supplier management | ✓ | ✓ | ✓ | ✓ |
-| Employee management | ✓ | ✓ | ✓ | ✓ |
-| Reports and analytics | ✓ | ✓ | ✓ | ✓ |
-| Kitchen operations | ✓ | ✓ | ✓ | ✓ |
-| Table management | ✓ | ✓ | ✓ | ✓ |
-| Integrated platform | ✓ | ✓ | ✓ | ✓ |
+| Inventario / Almacén | ✓ | ✓ | ✓ | ✓ |
+| Compras / Proveedores | ✓ | ✓ | ✓ | ✓ |
+| Facturación / Ventas POS | ✓ | ✓ | ✓ | ✓ |
+| Recursos Humanos | ✓ | ✓ | ✓ | ✓ |
+| Food Costing | Por verificar | Por verificar | Por verificar | ✓ |
+| CRM / Clientes | ✓ | ✓ | ✓ | ✓ |
+| Reservas | ✓ | ✓ | ✓ | ✓ |
+| Historial de clientes | ✓ | ✓ | ✓ | ✓ |
+| Fidelización | ✓ | ✓ | ✓ | ✓ |
+| Encuestas de satisfacción | Por verificar | Por verificar | Por verificar | ✓ |
 
-## Analysis
+## Diferenciación de la propuesta
 
-The comparison shows that restaurant management platforms already provide many of the functionalities proposed for this project.
+El objetivo del proyecto no es competir directamente con soluciones comerciales consolidadas.
 
-Therefore, the purpose of the proposed ERP is not to replace established commercial solutions. Instead, the project will focus on developing a controlled-scope ERP for a small or medium-sized restaurant, integrating its essential operational and administrative processes.
+La propuesta busca desarrollar un ERP de alcance controlado para un restaurante pequeño o mediano, integrando la operación tradicional del restaurante con Food Costing y CRM.
 
-This approach allows the project to focus on the application of software architecture concepts while addressing a real business context.
+La principal característica de la propuesta es la relación entre:
 
-## Conclusion
+**Inventario → Compras → Ventas → Food Costing → Rentabilidad**
 
-The analyzed solutions demonstrate that integration between restaurant processes is technically relevant and commercially established.
+y:
 
-The proposed ERP will use these solutions as references while maintaining a manageable scope appropriate for an academic software architecture project.
+**Ventas → Clientes → Reservas → Historial → Fidelización**
+
+Esta integración permitirá analizar la operación del restaurante desde una perspectiva más completa.
+
+## Integración propuesta
+
+Un ejemplo de integración sería el siguiente:
+
+Un cambio en el precio de un proveedor modifica el costo de un insumo. Este cambio afecta el costo de una receta y puede reducir el margen de ganancia de un plato.
+
+Al mismo tiempo, el sistema puede consultar las ventas y preferencias de los clientes para proporcionar información que apoye decisiones sobre el menú y estrategias de fidelización.
+
+## Conclusión
+
+Las soluciones analizadas demuestran que la gestión integrada de restaurantes es un área desarrollada comercialmente.
+
+Nuestra propuesta se diferencia por su alcance académico y por integrar específicamente el control de costos de recetas y la gestión de clientes con los procesos operativos del restaurante.
